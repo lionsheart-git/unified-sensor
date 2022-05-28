@@ -24,26 +24,4 @@ public:
     virtual void Module(module_t *) = 0;
 };
 
-class UnifiedSensor
-{
-    // Constructor(s)
-    UnifiedSensor() = default;
-    virtual ~UnifiedSensor() = default;
-
-    /**
-     * @brief Get the latest sensor event.
-     * @returns True if able to fetch an event.
-     */
-    virtual bool Event(data_event_t *) = 0;
-
-    /**
-     * @brief Information about this sensor.
-     * @return True, if able to fetch info.
-     */
-     virtual bool Sensor(sensor_t *) = 0;
-
-     virtual bool Init(init_data_t *) = 0;
-};
-
-
 #endif //UNIFIED_SENSOR_UNIFIEDMODULE_HPP
