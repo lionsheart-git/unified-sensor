@@ -2,7 +2,7 @@
 #ifndef UNIFIED_LOGGER_UNIFIEDSENSOR_HPP
 #define UNIFIED_LOGGER_UNIFIEDSENSOR_HPP
 
-#include "Unified_Structs.hpp"
+#include "UnifiedStructs.hpp"
 
 class UnifiedSensor
 {

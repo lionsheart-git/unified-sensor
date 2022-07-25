@@ -2,17 +2,7 @@
 #ifndef UNIFIED_SENSOR_UNIFIED_STRUCTS_HPP
 #define UNIFIED_SENSOR_UNIFIED_STRUCTS_HPP
 
-
-#ifndef ARDUINO
-
 #include <stdint.h>
-
-#elif ARDUINO >= 100
-#include "Arduino.h"
-#include "Print.h"
-#else
-#include "WProgram.h"
-#endif
 
 /** Module types */
 typedef enum
