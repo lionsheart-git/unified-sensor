@@ -2,7 +2,7 @@
 #ifndef UNIFIED_SENSOR_UNIFIEDMODULE_HPP
 #define UNIFIED_SENSOR_UNIFIEDMODULE_HPP
 
-#include "UnifiedStructs.hpp"
+#include "UnifiedStructs.h"
 
 class UnifiedSensor;
 
